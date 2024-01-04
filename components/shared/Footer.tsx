@@ -13,7 +13,7 @@ const Footer = () => {
           />
         </Link>
 
-        <p>2023 Evently. All Rights reserved.</p>
+        <p>Designed and developed by Vignesh RK</p>
       </div>
     </footer>
   )
