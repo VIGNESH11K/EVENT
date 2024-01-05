@@ -35,8 +35,8 @@ export default function Home() {
           <Search />
           <CategoryFilter />
         </div> */}
-{/* 
-        <Collection 
+
+        {/* <Collection 
           data={events?.data}
           emptyTitle="No Events Found"
           emptyStateSubtext="Come back later"
