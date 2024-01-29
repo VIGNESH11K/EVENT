@@ -28,7 +28,7 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
           <h3 className='h3-bold text-center sm:text-left'>My Tickets</h3>
           <Button asChild size="lg" className="button hidden sm:flex">
             <Link href="/#events">
-              Explore More Events
+              Explore More Medical Camps
             </Link>
           </Button>
         </div>
@@ -37,8 +37,8 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
       <section className="wrapper my-8">
         <Collection 
           data={orderedEvents}
-          emptyTitle="No event tickets purchased yet"
-          emptyStateSubtext="No worries - plenty of exciting events to explore!"
+          emptyTitle="No Appoinment booked yet"
+          emptyStateSubtext="No worries - Do it as soon as possible!"
           collectionType="My_Tickets"
           limit={3}
           page={ordersPage}
@@ -50,10 +50,10 @@ const ProfilePage = async ({ searchParams }: SearchParamProps) => {
       {/* Events Organized */}
       <section className="bg-primary-50 bg-dotted-pattern bg-cover bg-center py-5 md:py-10">
         <div className="wrapper flex items-center justify-center sm:justify-between">
-          <h3 className='h3-bold text-center sm:text-left'>Events Organized</h3>
+          <h3 className='h3-bold text-center sm:text-left'>Appointment Organized</h3>
           <Button asChild size="lg" className="button hidden sm:flex">
             <Link href="/events/create">
-              Create New Event
+              Create New Appointment
             </Link>
           </Button>
         </div>
