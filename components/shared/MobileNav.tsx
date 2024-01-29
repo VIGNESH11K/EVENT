@@ -14,7 +14,7 @@ import {
 const MobileNav = () => {
   return (
 
-    <nav className="md:hidden">      <Sheet>
+    <nav className="md:hidden"><Sheet>
     <SheetTrigger className="align-middle">
       <Image 
         src="/assets/icons/menu.svg"
@@ -25,12 +25,14 @@ const MobileNav = () => {
       />
     </SheetTrigger>
     <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
-      <Image 
-        src="/assets/images/logo.svg"
+      {/* <Image 
+        src="/public/assets/images/Log.png"
         alt="logo"
-        width={128}
-        height={38}
-      />
+        width={24}
+        height={12}
+      /> */}
+
+      <h1>DiagoAssist</h1>
       <Separator className="border border-gray-50" />
       <NavItems />
     </SheetContent>
