@@ -13,7 +13,7 @@ const Footer = () => {
           />
         </Link>
 
-        <p>Designed and developed by Vignesh RK</p>
+        <p>Designed and developed by DiagnoAssist</p>
       </div>
     </footer>
   )
