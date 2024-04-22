@@ -21,10 +21,10 @@ export default async function Home({ searchParams }: SearchParamProps) {
 
   return (
     <>
-<section className="bg-primary-50 bg-dotted-pattern bg-contain py-10 md:py-20" style={{ backgroundImage: "url('/assets/images/bg.jpg')" }}>
+<section className="bg-dotted-pattern bg-contain py-10 md:py-20">
   <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0">
     <div className="flex flex-col justify-center gap-8">
-      <h1 className="h1-bold">Host, Connect, Treat: Your Health, Through our Platform!</h1>
+      <h1 className="h1-bold">Host, Connect, Treat Your Health, Through ❤️ <span className="text-red-600">DiagnoAssist!</span></h1>
       <p className="p-regular-20 md:p-regular-24">Book and learn helpful tips from 3,168+ mentors, certified doctors, and professionals in world-class Facilities with our global community.</p>
       <Button size="lg" asChild className="button w-full sm:w-fit">
         <Link href="#events">
@@ -33,10 +33,12 @@ export default async function Home({ searchParams }: SearchParamProps) {
       </Button>
     </div>
 
-    <div style={{ width: "350px", height: "350px", borderRadius: "50%", overflow: "hidden", display: "flex", justifyContent: "center", alignItems: "center", marginLeft: "150px" }}>
-      <div style={{ width: "100%", height: "100%", backgroundImage: "url('/assets/images/5815.jpg')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
+    {/* <div style={{height:"100%", overflow: "hidden", display: "flex", justifyContent: "center", alignItems: "center" }}>       */}
+    <div>
+    <img src="./assets/images/landing.jpg" />
     </div>
-  </div>
+    </div>
+  {/* </div> */}
 </section>
 
 

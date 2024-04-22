@@ -8,11 +8,11 @@ import MobileNav from './MobileNav'
 
 const Header = () => {
   return (
-    <header className="w-full border-b">
+    <header className="w-full bg-white">
       <div className="wrapper flex items-center justify-between">
         <Link href="/" className="w-36">
         <Image 
-            src="/assets/images/Log.png" width={300} height={100}
+            src="/assets/images/logofinal.png" width={300} height={100}
             alt="Evently logo" 
           />
         </Link>
