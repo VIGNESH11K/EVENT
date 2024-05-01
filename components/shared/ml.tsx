@@ -2,7 +2,7 @@
 
 // const Ml = () => {
 //     const handleSubmit = () => {
-//         window.location.href = 'https://984e-157-119-201-150.ngrok-free.app/upload';
+//         window.location.href = '  https://de9a-103-106-138-141.ngrok-free.app';
 //     };
 
 //     return (
@@ -51,3 +51,4 @@ const Ml = () => {
 };
 
 export default Ml;
+
