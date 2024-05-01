@@ -2,7 +2,7 @@
 
 // const Ml = () => {
 //     const handleSubmit = () => {
-//         window.location.href = '  https://de9a-103-106-138-141.ngrok-free.app';
+//         window.location.href = 'https://984e-157-119-201-150.ngrok-free.app/upload';
 //     };
 
 //     return (
@@ -23,7 +23,7 @@ import React from 'react';
 
 const Ml = () => {
     const handleSubmit = () => {
-        window.location.href = 'https://d7fd-2401-4900-57e0-4633-5868-ac24-6f4a-2796.ngrok-free.app/upload';
+        window.location.href = '  https://de9a-103-106-138-141.ngrok-free.app';
     };
 
     return (
