@@ -11,7 +11,7 @@ variable: '--font-poppins',
 })
 
 export const metadata: Metadata = {
-  title: 'Evently',
+  title: 'DiagnoAssist',
   description: 'Evently is a platform for event management.',
    icons: {
     icon: '/assets/images/logo.svg'
