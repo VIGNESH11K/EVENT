@@ -23,7 +23,7 @@ import React from 'react';
 
 const Ml = () => {
     const handleSubmit = () => {
-        window.location.href = '  https://de9a-103-106-138-141.ngrok-free.app';
+        window.location.href = '  https://e04d-2409-40c0-13-53e7-5881-2fd7-95bc-338c.ngrok-free.app/upload';
     };
 
     return (
